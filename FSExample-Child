@@ -1,0 +1,11 @@
+const Child = (props) => {
+    // return (
+    //     props.children.length !== 0 ? props.children.map(item => item.id === 'file' ? (<div>--{item.name}</div>) : null ) : null
+    // );
+
+    return (
+        <div>{props.name}</div>
+    )
+}
+
+export default Child;
